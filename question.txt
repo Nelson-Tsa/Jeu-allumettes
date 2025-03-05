@@ -1,0 +1,53 @@
+Vrais ou faux 
+
+Il est possible de mettre plusieur condition dans une condition ?
+
+Else dois prendre une condition en paramettre ? 
+
+Toute fonction dois avoir une condition pour s'executer ?
+
+
+
+
+50 allumettes de base 
+
+let NombreAllumette = 50
+Je choisis le nombre de joueur
+
+
+prompt combien de joueur
+
+Le joueur1 commence la partie en donnant un nombre d'allumettes a retirer du paquet
+prompt combien d'allumette souhaite tu retirer ?
+
+
+on soustrait au nombre d'allumette le choix du joueur
+
+S'en suis le nombre de joueur défini
+chaque joueur agis comme le joueur 1
+
+
+le dernier joueur qui enleve la derniere allumettes perd  
+
+Si il reste 1 allumettes au tour du jours se sera perdu
+si allumette arrive a zero tu perd 
+
+
+
+
+
+Je veux crée des inputs avec le nom des joueurs respectif
+
+Ensuite je désactive chaque input 
+je réactive en fonction du joueur qui joue 
+le bouton validé valide le input qui est activé
+on enleve les allumettes correspondante
+on change de joueur
+ou on affiche la fonction fin de jeux
+
+
+
+
+ let joueurActuel = Number(document.getElementById("players").setAttribute("data-joueur-actuel") || 1);
+    joueurActuel = parseInt(joueurActuel);
+    console.log(joueurActuel);
