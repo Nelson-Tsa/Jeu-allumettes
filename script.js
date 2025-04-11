@@ -235,3 +235,18 @@ function rejouerInput(){
 
 
 
+module.exports = {
+    decompteAllumettes,
+    choisirNombreDeJoueur,
+    jeux,
+    finPartie,
+    rejouer,
+    VersionInput,
+    inputjoueurs,
+    nommerInput,
+    valeurInput,
+    verifierInput,
+    joueurSuivant,
+    finPartieInput,
+    rejouerInput
+}
